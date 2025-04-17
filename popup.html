@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Freediumer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 250px;
+      padding: 10px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    button {
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #3367d6;
+    }
+    #message {
+      margin-top: 10px;
+      padding: 8px;
+      border-radius: 4px;
+      font-size: 13px;
+      display: none;
+    }
+    .success {
+      background-color: #d4edda;
+      color: #155724;
+    }
+    .error {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+    .settings-link {
+      margin-top: 10px;
+      font-size: 12px;
+      text-align: center;
+    }
+    .settings-link a {
+      color: #4285f4;
+      text-decoration: none;
+    }
+    .settings-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h3>Freediumer</h3>
+    <button id="rewriteUrl">Rewrite Current URL</button>
+    <div id="message"></div>
+    <div class="settings-link">
+      <a href="#" id="openOptions">Configure URL Patterns</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

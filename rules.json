@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://freedium.cfd/https://medium.com/index.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://medium.com/index.html",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
