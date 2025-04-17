@@ -1,3 +1,4 @@
+![github](https://raw.githubusercontent.com/rotemfogel/Freediumer/refs/heads/main/icons/icon128.png)
 # Freediumer
 
 Read medium articles freely
