@@ -9,7 +9,7 @@
       }
     },
     "condition": {
-      "urlFilter": "^https?://[^/]*\.medium\.com/.*$",
+      "urlFilter": "https?://(www\.)?medium\.com",
       "resourceTypes": ["main_frame"]
     }
   }
